@@ -263,3 +263,35 @@ h3{
     margin-bottom: 70px;
     padding-top: 15px;
 }
+
+    /* media query */
+    @media only screen and (max-width:662px){
+        .description, .all-pic{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin: 0 auto;
+            max-width: 1120px;
+
+        }
+        .basic{
+            display: flex;
+            flex-direction: column-reverse;
+            max-width: 1120px;
+            margin: 0 auto;
+        }
+        .award-boxes{
+               display: flex;
+               flex-direction: column;
+               max-width: 1120px;
+               margin-left: 55px;
+
+        }
+        .icons{
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1120px;
+            margin-left: 20px;
+        }
+    }
+    
+
