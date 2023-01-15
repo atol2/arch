@@ -3,7 +3,7 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
      margin:0 auto; 
-    /* text-align: center; */
+     /* text-align: center;  */
 
 }
 .head{
@@ -122,23 +122,139 @@ border-radius: 8px;
 .basic{
     display: flex;
     margin-top: 136px;
+    margin-bottom: 136px;
 
 }
+h1{
+    width: 468px;
+    font-size:45px;
 
+}
+.para{
+    padding-top: 10px;
+    color: #727272;
+
+}
+.border{
+    border-left: #FF900E solid 5px;
+}
 
 .more-right{
+    position: relative;
     
 }
 .woman{
-    width: 708px;
-    height: 982px;
+    width: 458px;
+    height: 850px;
     border-radius: 8px;
+    margin-right: 245px;
+    margin-left: 100px;
 }
 .basic-info{
    padding-bottom: 30px;
+   margin-left: 240px;
+   margin-right: 20px;
     
 }
 .box{
     padding-bottom: 30px;
     padding-top: 50px;
+    background-color: white;
+    box-shadow: 0px 10px 10px #d4d3d3;
+    border: none;
+}
+.extra-button{
+    position: absolute;
+    color: azure;
+    font-size: 26px;
+    width: 222px;
+    height: 100px;
+    left: 769px;
+    top: 2822px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+
+}
+.factor{
+    text-align: left;
+    
+    
+}
+h3{
+    margin-left: 240px;
+    font-size: 46px;
+
+}
+.awards{
+   display: flex;
+   text-align: center;
+   justify-content: space-around;
+
+}
+.award-boxes{
+    
+    font-size: 16px;
+     margin: 100px 0px; 
+     padding: 20px; 
+    height: 100px;
+    width: 150px;
+    border: 2px solid #FF900E;
+    justify-content:space-evenly;
+    text-align: center;
+    text-align: center;
+    transition: width 3s, height 3s, transform 3s;
+    
+   
+    
+}
+.award-boxes:hover{
+    background-color: antiquewhite;
+    transform: rotate(270deg);
+    
+}
+.close{
+    font-weight: 700px;
+    color: rgb(74,73,73);
+}
+.icon{
+    height: 40px;
+    width: 120px;
+    filter: grayscale(1);
+}
+.icons{
+    display: flex;
+    gap: 35px;
+    justify-content: space-between;
+    padding: 48px 48px;
+
+}
+.spons{
+    text-align: center;
+}
+.our{
+    font-size: 36px;
+}
+.able{
+    text-align: center;
+}
+.social{
+    margin-bottom: 25px;
+}
+.media{
+    text-align: center;
+    list-style: none;
+    
+}
+
+.reserved {
+    color: #727272;
+    background-color: bisque;
+    width: 75%;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    padding-top: 15px;
 }
